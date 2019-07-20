@@ -4,6 +4,7 @@ import React from 'react';
 const VideoDetail = ({video}) => {
     
     if (!video) {
+        console.log("no video found")
         return <div>Loading... </div>;
     
     } 
