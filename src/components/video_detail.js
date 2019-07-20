@@ -21,8 +21,8 @@ const VideoDetail = ({video}) => {
 
 
             <div className="details">
-                <div>{videoDetail.snippet.title}</div>
-                <div>{videoDetail.snippet.description}</div> 
+                <div>{video.snippet.title}</div>
+                <div>{video.snippet.description}</div> 
             </div>
         </div>
 
