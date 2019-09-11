@@ -27,7 +27,7 @@ const VideoDetail = ({video}) => {
             </div> */}
             <YouTube
                 videoId={videoID}
-                opts={opts}
+                opts={opts} 
                 // onReady={this._onReady}
             />
 
